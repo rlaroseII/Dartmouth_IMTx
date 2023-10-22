@@ -2,23 +2,25 @@
 
 int main(){
 
-int num = 0;
 int power = 0;
 int resist = 0;
 int weight = 0;
 int height = 0;
 int all = 0;
-int n = 0;
-int q = 0;
+int pr = 0;
+int wh = 0;
+int num;
+int i;
 
-	scanf("%d%d%d%d%d",&num, &height, &weight, &power, &resist);
-
-	for( int i = 0; i <= num;i++){ 
-        n = power + resist;
-	q = weight - height;
-	all = n * q;	
+	scanf("%d",&num);
+	for(i = 0; i < num; i++){	
+	scanf("%d%d%d%d",&height,&weight,&power,&resist);
+	pr = resist + power;
+	wh = weight - height;
+	all = all + pr * wh;
 	}
-	printf("%d\n",all);
+
+printf("%d\n",all);
 		
 return 0;
 
