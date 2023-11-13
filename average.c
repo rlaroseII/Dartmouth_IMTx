@@ -28,7 +28,7 @@ int main(void) {
 						//based on it's temporary value provided by for-loop.
 		
 
-	cur_aver = sum_roll / num_of_rolls;	// After second for-loop "sum_roll" is able to be used for calculation of "cur_aver"
+	cur_aver = (double) sum_roll / num_of_rolls;	// After second for-loop "sum_roll" is able to be used for calculation of "cur_aver" after casting as a double.
 	printf("%d. you rolled: %d, current average: %.1lf\n", num_of_rolls, cur_roll, cur_aver);
 
 	}
