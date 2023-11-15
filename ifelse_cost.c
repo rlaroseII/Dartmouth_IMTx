@@ -7,7 +7,11 @@ int main() {
 	scanf("%d", &past_noon);
 	if(past_noon > 0){
 		total_cost = 10 + (past_noon * 5);
+			if(total_cost >= 53){
+			total_cost = 53;
+			}
 		printf("%d",total_cost);
+		
 	}else{
 		printf("%d", total_cost + 10);
 	}
