@@ -14,10 +14,10 @@ int main(void){
 		cell_num = cell_num + 1;	//by incrementing cell number by one each iteration
 	}
 	scanf("%d",&num_array);			//scanning for final input calling data held in cell number
-						//to output.
-	printf("%d",array[num_array]);		//print statement with format modifier being assigned vialue of
-						//array[<scanned input>] which will match a previous scanned	
-	return 0;				//input having been assigned a cell number(read_value).
+						            //to output.
+	printf("%d",array[num_array]);		//print statement with format modifier being assigned value of
+						        //array[<scanned input>] which will match a previous scanned	
+	return 0;				    //input having been assigned a cell number(read_value).
 }
 
 
