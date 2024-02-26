@@ -16,11 +16,17 @@ void reset(int * ptr){  //allocating space in memory for pointer variable 'ptr'
 
 
 /*
- // Below is the equivalent of the above function
- //
- * void reset(int * ptr){
+   Below is the equivalent of the above function
+ 
+ * void reset(int * ptr //OR int ptr[]// ){
     ptr[0] = 0;
     ptr[1] = 0;
     ptr[2] = 0;
+
+    Below also does the same thing as above function
+    *(ptr + 0) = 0;
+    *(ptr +1) = 0;
+    *(ptr +2) = 0;
+    //
 }
 */
